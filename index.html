@@ -23,18 +23,49 @@
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
   <!-- HERO SECTION -->
-  <header id="home" class="min-h-screen flex items-center justify-center text-white bg-gradient text-center animate__animated animate__fadeInDown">
-    <div>
-      <h1 class="text-5xl font-bold mb-4">Hi, I'm <span class="text-blue-400">Siddartha Bandi</span></h1>
-      <h2 class="text-2xl mb-6">Graduate Student in Data Science | Analytics & ML Enthusiast</h2>
-      <p class="mb-8 max-w-xl mx-auto animate__animated animate__fadeIn">Transforming data into strategic insight using machine learning, visualization, and research-backed analysis.</p>
-      <div class="space-x-4">
-        <a href="#projects" class="px-6 py-2 bg-white text-blue-600 font-semibold rounded shadow hover:bg-gray-100 transition duration-300">View My Work</a>
-        <a href="#contact" class="px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-blue-600 transition duration-300">Contact Me</a>
-      </div>
+  <header id="home" class="min-h-screen flex flex-col justify-center items-center text-white bg-gradient text-center animate__animated animate__fadeInDown">
+    <img src="1.jpeg" alt="AI Visual" class="w-64 h-auto mb-6 animate__animated animate__zoomIn" />
+    <h1 class="text-5xl font-bold mb-4">Hi, I'm <span class="text-blue-400">Siddartha Bandi</span></h1>
+    <h2 class="text-2xl mb-6">Graduate Student in Data Science | Analytics & ML Enthusiast</h2>
+    <p class="mb-8 max-w-xl mx-auto animate__animated animate__fadeIn">Transforming data into strategic insight using machine learning, visualization, and research-backed analysis.</p>
+    <div class="space-x-4">
+      <a href="#projects" class="px-6 py-2 bg-white text-blue-600 font-semibold rounded shadow hover:bg-gray-100 transition duration-300">View My Work</a>
+      <a href="#contact" class="px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-blue-600 transition duration-300">Contact Me</a>
     </div>
   </header>
 
+  <!-- ABOUT -->
+  <section id="about" class="py-20 bg-white text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">About Me</h2>
+      <p>I'm a Data Science master's student with expertise in ML, data visualization, and cloud tools. Passionate about using data to solve real-world problems through predictive modeling and research-backed insights.</p>
+    </div>
+  </section>
+
+    <!-- EXPERIENCE -->
+  <section id="experience" class="py-20 bg-gray-50 text-center">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-10">Experience</h2>
+      <div class="space-y-6 text-left">
+        <div>
+          <h3 class="font-semibold">Graduate Research Assistant – UND</h3>
+          <p class="text-sm text-gray-600">Aug 2024 – Feb 2025</p>
+          <p>Analyzed large-scale publication data to evaluate research diversity and funding impacts using ML and dashboards.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold">IT/Program Assistant – Runway Accelerator</h3>
+          <p class="text-sm text-gray-600">Jan 2024 – Present</p>
+          <p>Handled technical setup for courses and coordinated between online/offline entrepreneurs and faculty.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold">Data Analyst Intern – Mashreq Bank</h3>
+          <p class="text-sm text-gray-600">Jan 2023 – Jun 2023</p>
+          <p>Built predictive models and automated dashboards to assist credit and risk teams.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   <!-- PROJECTS SECTION -->
   <section id="projects" class="py-20 bg-white text-center animate__animated animate__fadeInUp">
     <div class="max-w-5xl mx-auto">
@@ -69,6 +100,57 @@
           <p>Analyzed authorship patterns and created Python dashboards to track funding and gender diversity in research teams.</p>
         </div>
 
+      </div>
+    </div>
+  </section>
+
+  <!-- ILLUSTRATION -->
+  <div class="flex justify-center my-12 animate__animated animate__fadeIn">
+    <img src="2.jpg" alt="Data Flow Graphic" class="w-4/5 md:w-2/3 rounded shadow-lg" />
+  </div>
+
+    <!-- SKILLS -->
+  <section id="skills" class="py-20 bg-gray-100">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-10 text-center">Skills & Tools</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <ul class="list-disc list-inside space-y-2">
+          <li>Languages: Python, R, SQL</li>
+          <li>ML Frameworks: Scikit-learn, TensorFlow</li>
+          <li>Visualization: Tableau, Power BI, Matplotlib</li>
+          <li>Big Data: Apache Spark, Hadoop</li>
+          <li>Cloud: AWS, GCP</li>
+        </ul>
+        <div>
+          <h3 class="font-semibold mb-2">GitHub Projects</h3>
+          <ul class="space-y-2 list-disc list-inside">
+            <li><a href="https://github.com/siddarthabandi5/Dogecoin-Forecasting" target="_blank" class="text-blue-500 underline">Dogecoin Forecasting</a></li>
+            <li><a href="https://github.com/siddarthabandi5/Bibliometric-Research-Analysis" target="_blank" class="text-blue-500 underline">Bibliometric Analysis</a></li>
+            <li><a href="https://github.com/siddarthabandi5/GDP-Dashboard-Tableau" target="_blank" class="text-blue-500 underline">GDP Dashboard</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 bg-white text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+      <p>Email: <a href="mailto:siddarthabandi5@gmail.com" class="text-blue-600 underline">siddarthabandi5@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/bandi-siddartha" target="_blank" class="text-blue-600 underline">linkedin.com/in/bandi-siddartha</a></p>
+    </div>
+  </section>
+  
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-20 bg-gray-50 text-center animate__animated animate__fadeInUp">
+    <div class="max-w-2xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">Let's Connect</h2>
+      <p class="mb-8">Interested in collaborating or have questions about my work? Feel free to reach out.</p>
+      <div class="space-y-4 text-left">
+        <p><strong>Email:</strong> <a href="mailto:siddarthabandi5@gmail.com" class="text-blue-600 hover:underline">siddarthabandi5@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/bandi-siddartha" target="_blank" class="text-blue-600 hover:underline">bandi-siddartha</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/GhostUchiha64" target="_blank" class="text-blue-600 hover:underline">@GhostUchiha64</a></p>
       </div>
     </div>
   </section>
