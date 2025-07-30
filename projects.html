@@ -1,0 +1,58 @@
+diff --git a//dev/null b/projects.html
+index 0000000000000000000000000000000000000000..4ec11795f1517e3c84d7f3380dfd91eb0753e49a 100644
+--- a//dev/null
++++ b/projects.html
+@@ -0,0 +1,53 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8" />
++  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++  <title>Projects - Siddartha Bandi</title>
++  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
++  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
++</head>
++<body class="bg-slate-50 text-slate-800 font-sans antialiased">
++<nav class="bg-gray-800 text-white p-4">
++  <ul class="flex space-x-4 justify-center">
++    <li><a href="index.html" class="hover:text-blue-400">Home</a></li>
++    <li><a href="about.html" class="hover:text-blue-400">About</a></li>
++    <li><a href="experience.html" class="hover:text-blue-400">Experience</a></li>
++    <li><a href="projects.html" class="hover:text-blue-400">Projects</a></li>
++    <li><a href="contact.html" class="hover:text-blue-400">Contact</a></li>
++  </ul>
++</nav>
++  <section class="py-20 bg-white text-center">
++    <div class="max-w-5xl mx-auto">
++      <h2 class="text-3xl font-bold mb-10">Projects & Research</h2>
++      <div class="space-y-6 text-left">
++        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition duration-300">
++          <h3 class="text-xl font-semibold">📈 Dogecoin Price Prediction</h3>
++          <p class="mb-4">Used LSTM and FbProphet to forecast prices; compared accuracy using RMSE and R² metrics.</p>
++          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
++            <div class="border rounded shadow">
++              <img src="LSTM.jpeg" alt="Bitcoin Price Prediction using RNN-LSTM" class="w-full rounded" />
++              <p class="text-sm text-center mt-2">Bitcoin Price Prediction using RNN-LSTM</p>
++            </div>
++            <div class="border rounded shadow">
++              <img src="Fbprophet.jpeg" alt="DOGE-INR: Actual vs Predicted Prices (FbProphet)" class="w-full rounded" />
++              <p class="text-sm text-center mt-2">DOGE-INR: Actual vs Predicted Prices (FbProphet)</p>
++            </div>
++          </div>
++        </div>
++        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition duration-300">
++          <h3 class="text-xl font-semibold">🌍 Global GDP Dashboard</h3>
++          <p class="mb-4">Screenshot of interactive Tableau dashboard showing GDP trends (2008–2023):</p>
++          <div class="w-full flex justify-center">
++            <img src="Dashboard.png" alt="GDP Dashboard Screenshot" class="rounded shadow-lg max-w-full h-auto border border-gray-200" />
++          </div>
++        </div>
++        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition duration-300">
++          <h3 class="text-xl font-semibold">📊 Research Team Diversity Analysis</h3>
++          <p>Analyzed authorship patterns and created Python dashboards to track funding and gender diversity in research teams.</p>
++        </div>
++      </div>
++    </div>
++  </section>
++</body>
++</html>
